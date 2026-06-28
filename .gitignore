@@ -1,0 +1,24 @@
+# Virtual environment (bundled venv in this project)
+envii/
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / secrets
+.env
+*.env
+
+# Chroma / vector store local data
+.chroma/
+chroma_db/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
