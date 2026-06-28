@@ -12,6 +12,8 @@ __pycache__/
 # Environment / secrets
 .env
 *.env
+.streamlit/secrets.toml
+secrets.toml
 
 # Chroma / vector store local data
 .chroma/
